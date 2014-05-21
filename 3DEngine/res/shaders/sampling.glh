@@ -1,0 +1,4 @@
+
+vec2 calcTexCoordDisplacement(sampler2D dispMap, mat3 tbnMatrix, vec3 directionToEye, vec2 texCoords, float dispScale, float dispBias) {
+    return texCoords.xy + (directionToEye * tbnMatrix).xy * (texture2D(dispMap, texCoords.xy).r * dispScale + dispBias);
+}
