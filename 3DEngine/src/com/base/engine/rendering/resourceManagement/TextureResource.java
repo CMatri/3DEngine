@@ -7,6 +7,7 @@ import java.nio.ByteBuffer;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL20.glDrawBuffers;
 import static org.lwjgl.opengl.GL30.*;
+import static org.lwjgl.opengl.GL12.*;
 
 public class TextureResource {
     private int[] id;
@@ -58,13 +59,13 @@ public class TextureResource {
             glTexParameteri(textureTarget, GL_TEXTURE_MIN_FILTER, filters[i]);
             glTexParameteri(textureTarget, GL_TEXTURE_MAG_FILTER, filters[i]);
 
-            glTexParameteri(textureTarget, GL_TEXTURE_WRAP_S, GL_REPEAT);
-            glTexParameteri(textureTarget, GL_TEXTURE_WRAP_T, GL_REPEAT);
-
             if (clamp) {
                 glTexParameteri(textureTarget, GL_TEXTURE_WRAP_S, GL_CLAMP);
                 glTexParameteri(textureTarget, GL_TEXTURE_WRAP_T, GL_CLAMP);
             }
+
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_BASE_LEVEL, 0);
+            glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, 0);
 
             glTexImage2D(textureTarget, 0, internalFormat[i], width, height, 0, format[i], GL_UNSIGNED_BYTE, data);
         }
@@ -123,7 +124,6 @@ public class TextureResource {
     }
 
     public void bindAsRenderTarget() {
-        glBindTexture(GL_TEXTURE_2D, 0);
         glBindFramebuffer(GL_DRAW_FRAMEBUFFER, frameBuffer);
         glViewport(0, 0, width, height);
     }

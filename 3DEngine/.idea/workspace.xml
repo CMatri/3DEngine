@@ -39,48 +39,67 @@
       <file leaf-file-name="RenderingEngine.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17073171" vertical-offset="1268" max-vertical-offset="2618">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="113" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.023842918" vertical-offset="1037" max-vertical-offset="2380">
+              <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3876#3877#0" expanded="true" />
-                <element signature="e#3922#3923#0" expanded="true" />
-                <element signature="e#3967#3968#0" expanded="true" />
-                <element signature="e#4000#4001#0" expanded="true" />
-                <element signature="e#4044#4045#0" expanded="true" />
-                <element signature="e#4079#4080#0" expanded="true" />
-                <element signature="e#4120#4121#0" expanded="true" />
-                <element signature="e#4154#4155#0" expanded="true" />
-                <element signature="e#4191#4192#0" expanded="true" />
-                <element signature="e#4224#4225#0" expanded="true" />
-                <element signature="e#4276#4277#0" expanded="true" />
-                <element signature="e#4320#4321#0" expanded="true" />
-                <element signature="e#4373#4374#0" expanded="true" />
-                <element signature="e#4423#4424#0" expanded="true" />
-                <element signature="e#4492#4493#0" expanded="true" />
-                <element signature="e#4532#4533#0" expanded="true" />
+                <element signature="e#3793#3794#0" expanded="true" />
+                <element signature="e#3839#3840#0" expanded="true" />
+                <element signature="e#3884#3885#0" expanded="true" />
+                <element signature="e#3917#3918#0" expanded="true" />
+                <element signature="e#3961#3962#0" expanded="true" />
+                <element signature="e#3996#3997#0" expanded="true" />
+                <element signature="e#4037#4038#0" expanded="true" />
+                <element signature="e#4071#4072#0" expanded="true" />
+                <element signature="e#4108#4109#0" expanded="true" />
+                <element signature="e#4141#4142#0" expanded="true" />
+                <element signature="e#4181#4182#0" expanded="true" />
+                <element signature="e#4215#4216#0" expanded="true" />
+                <element signature="e#4267#4268#0" expanded="true" />
+                <element signature="e#4311#4312#0" expanded="true" />
+                <element signature="e#4364#4365#0" expanded="true" />
+                <element signature="e#4414#4415#0" expanded="true" />
+                <element signature="e#4483#4484#0" expanded="true" />
+                <element signature="e#4523#4524#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Material.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Material.java">
+      <file leaf-file-name="Shader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="6290">
+              <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#735#759#0" expanded="true" />
+                <element signature="e#6484#6515#0" expanded="true" />
+                <element signature="e#7365#7377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1042" max-vertical-offset="2975">
+              <caret line="82" column="77" selection-start-line="82" selection-start-column="77" selection-end-line="82" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Texture.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Texture.java">
+      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1853">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,35 +108,22 @@
       <file leaf-file-name="TextureResource.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/TextureResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="2584">
-              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#3810#3811#0" expanded="true" />
-                <element signature="e#3870#3871#0" expanded="true" />
-                <element signature="e#3896#3897#0" expanded="true" />
-                <element signature="e#3924#3925#0" expanded="true" />
-                <element signature="e#4142#4143#0" expanded="true" />
-                <element signature="e#4170#4171#0" expanded="true" />
-                <element signature="e#4200#4201#0" expanded="true" />
-                <element signature="e#4229#4230#0" expanded="true" />
-                <element signature="e#4268#4269#0" expanded="true" />
-                <element signature="e#4302#4303#0" expanded="true" />
-                <element signature="e#4343#4344#0" expanded="true" />
-                <element signature="e#4379#4380#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2227">
+              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Window.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Window.java">
+      <file leaf-file-name="Transform.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Transform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="799">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1819">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,13 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ScreenEffect.java" />
-        <option value="$PROJECT_DIR$/res/shaders/filter.fs" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/ScreenShader.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/leaves/LookAtAutomator.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/physics/particle/Particle.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/physics/particle/ParticleEmitter.java" />
-        <option value="$PROJECT_DIR$/src/com/base/game/Test.java" />
         <option value="$PROJECT_DIR$/src/com/base/game/voxel/world/Chunk.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/core/Vector3f.java" />
         <option value="$PROJECT_DIR$/src/com/base/game/voxel/world/tiles/TileVoid.java" />
@@ -149,13 +148,11 @@
         <option value="$PROJECT_DIR$/src/com/base/engine/core/Vector2f.java" />
         <option value="$PROJECT_DIR$/src/com/base/game/voxel/VoxelMain.java" />
         <option value="$PROJECT_DIR$/src/com/base/game/voxel/world/chunks/Chunk.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java" />
         <option value="$PROJECT_DIR$/res/shaders/forward-ambient.vs" />
         <option value="$PROJECT_DIR$/res/shaders/lightingMain.vs" />
         <option value="$PROJECT_DIR$/res/shaders/forward-directional.vs" />
         <option value="$PROJECT_DIR$/res/shaders/forward-spot.vs" />
         <option value="$PROJECT_DIR$/res/shaders/forward-point.vs" />
-        <option value="$PROJECT_DIR$/res/shaders/sampling.glh" />
         <option value="$PROJECT_DIR$/res/shaders/forward-ambient.fs" />
         <option value="$PROJECT_DIR$/res/shaders/forward-point.fs" />
         <option value="$PROJECT_DIR$/res/shaders/forward-spot.fs" />
@@ -171,23 +168,33 @@
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java" />
         <option value="$PROJECT_DIR$/src/com/base/game/TestGame2.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/MeshRenderer.java" />
-        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/MaterialBag.java" />
         <option value="$PROJECT_DIR$/res/models/plane.obj" />
-        <option value="$PROJECT_DIR$/res/models/box.obj" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/leaves/Camera.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/leaves/PerspectiveCamera.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/leaves/OrthographicCamera.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Material.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Texture.java" />
+        <option value="$PROJECT_DIR$/res/shaders/sampling.glh" />
+        <option value="$PROJECT_DIR$/res/models/box.obj" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Material.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/MappedValues.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/MaterialBag.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/leaves/BaseLight.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/core/Transform.java" />
+        <option value="$PROJECT_DIR$/res/shaders/shadowMapGenerator.vs" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/leaves/Camera.java" />
+        <option value="$PROJECT_DIR$/res/shaders/shadowMapGenerator.fs" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/leaves/DirectionalLight.java" />
+        <option value="$PROJECT_DIR$/src/com/base/game/TestGame.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Window.java" />
-        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java" />
         <option value="$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/TextureResource.java" />
+        <option value="$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="712" />
+    <option name="y" value="90" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -409,6 +416,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -456,6 +464,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -587,13 +599,12 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="shaders" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -607,7 +618,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lwjgl-2.9.1/lwjgl-2.9.1/jar/lwjgl_util.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -951,15 +962,17 @@
       <workItem from="1400437121973" duration="10387000" />
       <workItem from="1400541224177" duration="1104000" />
       <workItem from="1400545067043" duration="775000" />
-      <workItem from="1400618744895" duration="14587000" />
+      <workItem from="1400618744895" duration="15281000" />
+      <workItem from="1400703443077" duration="2303000" />
+      <workItem from="1400710917859" duration="12792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241560000" />
+    <option name="totallyTimeSpent" value="257349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="712" y="90" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -967,10 +980,10 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14500538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14466737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17515923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17423442" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16421291" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11384287" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -982,13 +995,41 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22139831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1632653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2309322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16541353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16421291" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22139831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1626188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14500538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17515923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11384287" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.123548046" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1016,116 +1057,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.627907" vertical-offset="810" max-vertical-offset="1854">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-directional.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="774">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-spot.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="774">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-point.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="774">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/lighting.glh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0232558" vertical-offset="0" max-vertical-offset="1854">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/lightingMain.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-ambient.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-point.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-spot.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/forward-ambient.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/textures/bricks_disp.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Vector3f.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74712646" vertical-offset="1575" max-vertical-offset="2358">
-          <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/sampling.glh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/game/voxel/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5815832" vertical-offset="0" max-vertical-offset="619">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/ScrollMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1276252" vertical-offset="479" max-vertical-offset="1260">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33227345" vertical-offset="493" max-vertical-offset="6264">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/textures/bricks2_normal.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1193,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/GameLeaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/FlyMove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1656">
@@ -1222,24 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79651797" vertical-offset="645" max-vertical-offset="1564">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="e#3335#3336#0" expanded="false" />
-            <element signature="e#3361#3362#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21980414" vertical-offset="1192" max-vertical-offset="2686">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7754293" vertical-offset="756" max-vertical-offset="1513">
@@ -1255,51 +1161,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/MeshRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/lwjgl-2.9.1/lwjgl-2.9.1/jar/lwjgl.jar!/org/lwjgl/opengl/GL13.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18842225" vertical-offset="1483" max-vertical-offset="3910">
           <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/MaterialBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="867">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/models/box.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5717982" vertical-offset="0" max-vertical-offset="773">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/models/plane.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32988358" vertical-offset="0" max-vertical-offset="773">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/PerspectiveCamera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13350785" vertical-offset="0" max-vertical-offset="764">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,15 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13350785" vertical-offset="0" max-vertical-offset="764">
           <caret line="6" column="83" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="3043">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,15 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.8" vertical-offset="27855" max-vertical-offset="28628">
           <caret line="1676" column="28" selection-start-line="1676" selection-start-column="28" selection-end-line="1676" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15845539" vertical-offset="0" max-vertical-offset="751">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,82 +1186,300 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34502104" vertical-offset="7846" max-vertical-offset="10965">
           <caret line="477" column="23" selection-start-line="477" selection-start-column="23" selection-end-line="477" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Mesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8222222" vertical-offset="306" max-vertical-offset="2686">
+          <caret line="160" column="5" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/sampling.glh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055495102" vertical-offset="0" max-vertical-offset="919">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/models/box.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4069641" vertical-offset="0" max-vertical-offset="919">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/models/plane.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Material.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/MappedValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/MaterialBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Texture.java">
+    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1853">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="611" max-vertical-offset="1530">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/PerspectiveCamera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11111111" vertical-offset="0" max-vertical-offset="765">
+          <caret line="5" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/PointLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/CoreEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1853">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
+            <element signature="e#2449#2450#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/forward-ambient.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/forward-ambient.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/forward-directional.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/lightingMain.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/shadowMapGenerator.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/shadowMapGenerator.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/GameLeaf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35555556" vertical-offset="0" max-vertical-offset="765">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_55/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="6630" max-vertical-offset="18921">
+          <caret line="438" column="19" selection-start-line="438" selection-start-column="19" selection-end-line="438" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/GameBranch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112" vertical-offset="1037" max-vertical-offset="1802">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/DirectionalLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="765">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/game/TestGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1042" max-vertical-offset="2975">
+          <caret line="82" column="77" selection-start-line="82" selection-start-column="77" selection-end-line="82" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/BaseLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="34" max-vertical-offset="799">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="799">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.53333336" vertical-offset="17" max-vertical-offset="782">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/MeshRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="765">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/leaves/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1649">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/resourceManagement/TextureResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="2584">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2227">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/core/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1819">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/Shader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="6290">
+          <caret line="68" column="68" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#3810#3811#0" expanded="true" />
-            <element signature="e#3870#3871#0" expanded="true" />
-            <element signature="e#3896#3897#0" expanded="true" />
-            <element signature="e#3924#3925#0" expanded="true" />
-            <element signature="e#4142#4143#0" expanded="true" />
-            <element signature="e#4170#4171#0" expanded="true" />
-            <element signature="e#4200#4201#0" expanded="true" />
-            <element signature="e#4229#4230#0" expanded="true" />
-            <element signature="e#4268#4269#0" expanded="true" />
-            <element signature="e#4302#4303#0" expanded="true" />
-            <element signature="e#4343#4344#0" expanded="true" />
-            <element signature="e#4379#4380#0" expanded="true" />
+            <element signature="e#735#759#0" expanded="true" />
+            <element signature="e#6484#6515#0" expanded="true" />
+            <element signature="e#7365#7377#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/base/engine/rendering/RenderingEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17073171" vertical-offset="1268" max-vertical-offset="2618">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="113" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.023842918" vertical-offset="1037" max-vertical-offset="2380">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3876#3877#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-            <element signature="e#3967#3968#0" expanded="true" />
-            <element signature="e#4000#4001#0" expanded="true" />
-            <element signature="e#4044#4045#0" expanded="true" />
-            <element signature="e#4079#4080#0" expanded="true" />
-            <element signature="e#4120#4121#0" expanded="true" />
-            <element signature="e#4154#4155#0" expanded="true" />
-            <element signature="e#4191#4192#0" expanded="true" />
-            <element signature="e#4224#4225#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-            <element signature="e#4320#4321#0" expanded="true" />
-            <element signature="e#4373#4374#0" expanded="true" />
-            <element signature="e#4423#4424#0" expanded="true" />
-            <element signature="e#4492#4493#0" expanded="true" />
-            <element signature="e#4532#4533#0" expanded="true" />
+            <element signature="e#3793#3794#0" expanded="true" />
+            <element signature="e#3839#3840#0" expanded="true" />
+            <element signature="e#3884#3885#0" expanded="true" />
+            <element signature="e#3917#3918#0" expanded="true" />
+            <element signature="e#3961#3962#0" expanded="true" />
+            <element signature="e#3996#3997#0" expanded="true" />
+            <element signature="e#4037#4038#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
+            <element signature="e#4108#4109#0" expanded="true" />
+            <element signature="e#4141#4142#0" expanded="true" />
+            <element signature="e#4181#4182#0" expanded="true" />
+            <element signature="e#4215#4216#0" expanded="true" />
+            <element signature="e#4267#4268#0" expanded="true" />
+            <element signature="e#4311#4312#0" expanded="true" />
+            <element signature="e#4364#4365#0" expanded="true" />
+            <element signature="e#4414#4415#0" expanded="true" />
+            <element signature="e#4483#4484#0" expanded="true" />
+            <element signature="e#4523#4524#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,6 @@ import com.base.engine.core.GameBranch;
 import com.base.engine.core.Util;
 import com.base.engine.core.Vector3f;
 import com.base.engine.rendering.*;
-import com.base.engine.rendering.primitives.Box;
 import com.base.game.Game;
 import com.base.game.voxel.world.tiles.Tile;
 
@@ -47,10 +46,10 @@ public class Chunk {
 		rebuild();
 
 		Material barkMaterial = new Material();
-		barkMaterial.addTexture("diffuse", new Texture("bark.jpg"));
-		barkMaterial.addTexture("normalMap", new Texture("bark_norm.jpg"));
-		barkMaterial.addFloat("specularIntensity", 1);
-		barkMaterial.addFloat("specularPower", 5);
+		barkMaterial.setTexture("diffuse", new Texture("bark.jpg"));
+		barkMaterial.setTexture("normalMap", new Texture("bark_norm.jpg"));
+		barkMaterial.setFloat("specularIntensity", 1);
+		barkMaterial.setFloat("specularPower", 5);
 
 		game.addObject(chunkBranch.addLeaf(new MeshRenderer(chunkMesh, barkMaterial)));
 	}

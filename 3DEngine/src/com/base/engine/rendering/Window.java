@@ -40,7 +40,6 @@ public class Window {
 	}
 
     public static void bindAsRenderTarget() {
-        glBindTexture(GL_TEXTURE_2D, 0);
         glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
         glViewport(0, 0, getWidth(), getHeight());
     }

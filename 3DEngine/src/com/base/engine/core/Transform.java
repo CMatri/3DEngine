@@ -36,6 +36,10 @@ public class Transform {
 		rot = new Quaternion(axis, angle).mul(rot).normalized();
 	}
 
+    public void setPos(Vector3f pos) {
+        this.pos.set(pos.getX(), pos.getY(), pos.getZ());
+    }
+
 	public void lookAt(Vector3f point, Vector3f up) {
 		rot = getLookAtRotation(point, up);
 	}

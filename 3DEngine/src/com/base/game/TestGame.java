@@ -84,6 +84,8 @@ public class TestGame extends Game {
         directionalLightBranch.addLeaf(directionalLight);
 
         GameBranch smallPlaneBranch = new GameBranch().addLeaf(smallPlaneRenderer);
+        smallPlaneBranch.getTransform().setScale(0.5f, 0.5f, 0.5f);
+        smallPlaneBranch.getTransform().rotate(new Vector3f(1, 0, 0), 90f);
         bunnyBranch = new GameBranch().addLeaf(bunnyRenderer);
         monkeyBranch = new GameBranch().addLeaf(monkeyRenderer);
 
@@ -103,10 +105,10 @@ public class TestGame extends Game {
 
         addObject(planeObject);
         addObject(directionalLightBranch);
-        addObject(lS1);
-        addObject(lP1);
-        addObject(lP2);
-        addObject(lP3);
+//        addObject(lS1);
+//        addObject(lP1);
+//        addObject(lP2);
+//        addObject(lP3);
         addObject(smallPlaneBranch);
         addObject(new GameBranch().addLeaf(camera).addLeaf(new FlyLook(0.10f, Input.KEY_ESCAPE, true)).addLeaf(new FlyMove(5)));
         addObject(monkeyBranch.addLeaf(new LookAtAutomator(camera).setSpeed(2.5f)).addLeaf(new FlyFollow(camera, 0.25f, 5, 10)));
@@ -124,8 +126,6 @@ public class TestGame extends Game {
         bunnyBranch.getTransform().setRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(90)));
         bunnyBranch.getTransform().setScale(1.2f, 1.2f, 1.2f);
         monkeyBranch.getTransform().getPos().set(9.5f, 1.0f, 4.5f);
-
-        directionalLight.setEnabled(false);
     }
 
     private float r = 0f;
@@ -150,8 +150,6 @@ public class TestGame extends Game {
     @Override
     public void input(float delta) {
         super.input(delta);
-        if (Input.getKeyDown(Input.KEY_F))
-            directionalLight.setEnabled(!directionalLight.isEnabled());
         if (Input.getKeyDown(Input.KEY_1))
             lP1.getTransform().getPos().set(camera.getTransform().getPos());
         if (Input.getKeyDown(Input.KEY_2))
@@ -162,8 +160,6 @@ public class TestGame extends Game {
             lS1.getTransform().getPos().set(camera.getTransform().getPos());
             lS1.getTransform().setRot(camera.getTransform().getRot());
         }
-        if (Input.getKeyDown(Input.KEY_L))
-            directionalLight.setEnabled(!directionalLight.isEnabled());
         if (Input.getKeyDown(Input.KEY_K))
             follow = !follow;
         if (Input.getKeyDown(Input.KEY_J)) {
