@@ -238,12 +238,6 @@ public class Shader {
 
         int uniformLocation = glGetUniformLocation(resource.getProgram(), uniformName);
 
-        if (uniformLocation == 0xFFFFFFFF) {
-            Util.err(fileName + ": Could not find uniform " + uniformName);
-//			new Exception().printStackTrace();
-//			System.exit(1);
-        }
-
         resource.getUniforms().put(uniformName, uniformLocation);
     }
 

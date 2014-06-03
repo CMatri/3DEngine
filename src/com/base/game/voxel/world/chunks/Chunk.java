@@ -105,7 +105,7 @@ public class Chunk {
 		}
 
 		chunkMesh = new Mesh(toVertexArray(vertices), Util.toIntArray(toIntegerArray(indices)));
-		chunkMesh.setDrawType(GL_TRIANGLE_STRIP);
+//		chunkMesh.setDrawType(GL_TRIANGLE_STRIP);
 	}
 
 	public void dispose() {

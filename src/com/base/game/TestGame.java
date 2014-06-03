@@ -26,6 +26,9 @@ public class TestGame extends Game {
 
     private Random rand;
 
+    private GameBranch bodyBranch = new GameBranch();
+    private GameBranch boxBranch;
+
     @Override
     public void init() {
         rand = new Random();
@@ -56,7 +59,6 @@ public class TestGame extends Game {
 
         int indices2[] = new int[]{0, 1, 2,
                 2, 1, 3};
-
 //		@formatter:on
 
         camera = new PerspectiveCamera((float) Math.toRadians(70.0f), (float) Window.getWidth() / (float) Window.getHeight(), 0.01f, 1000.0f);
@@ -69,11 +71,15 @@ public class TestGame extends Game {
         Mesh bunnyMesh = new Mesh("bunny.obj");
         Mesh mesh = new Mesh(vertices, indices, true);
         Mesh mesh2 = new Mesh(vertices2, indices2, true);
+        Mesh body = new Mesh("body.obj");
+        Mesh box = new Mesh("cube.obj");
 
         MeshRenderer planeRenderer = new MeshRenderer(mesh, brickMaterial2);
         MeshRenderer smallPlaneRenderer = new MeshRenderer(mesh2, brickMaterial);
         MeshRenderer bunnyRenderer = new MeshRenderer(bunnyMesh, crackedBrickMaterial);
         MeshRenderer monkeyRenderer = new MeshRenderer(monkeyMesh, crackedBrickMaterial);
+        MeshRenderer bodyRenderer = new MeshRenderer(body, crackedBrickMaterial);
+        MeshRenderer boxRenderer = new MeshRenderer(box, brickMaterial);
 
         planeObject = new GameBranch();
         planeObject.addLeaf(planeRenderer);
@@ -89,6 +95,8 @@ public class TestGame extends Game {
         bunnyBranch = new GameBranch().addLeaf(bunnyRenderer);
         monkeyBranch = new GameBranch().addLeaf(monkeyRenderer);
 
+        boxBranch = new GameBranch().addLeaf(boxRenderer);
+
         pointLight = new PointLight(new Vector3f(0, 1, 0), 0.4f, new Attenuation(0, 0, 1));
         pointLight2 = new PointLight(new Vector3f(0, 1, 1), 0.4f, new Attenuation(0, 0, 1));
         pointLight3 = new PointLight(new Vector3f(1, 1, 0), 0.4f, new Attenuation(0, 0, 1));
@@ -103,17 +111,22 @@ public class TestGame extends Game {
         spotLight.getTransform().getPos().set(15, -0.655f, 5);
         spotLight.getTransform().setRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(90.0f)));
 
+
         addObject(directionalLightBranch);
-        addObject(lS1);
+//        addObject(lS1);
 //        addObject(lP1);
 //        addObject(lP2);
 //        addObject(lP3);
+        addObject(bodyBranch.addLeaf(bodyRenderer));
+        addObject(boxBranch);
         addObject(smallPlaneBranch);
         addObject(new GameBranch().addLeaf(camera).addLeaf(new FlyLook(0.10f, Input.KEY_ESCAPE, true)).addLeaf(new FlyMove(5)));
         addObject(monkeyBranch.addLeaf(new LookAtAutomator(camera).setSpeed(2.5f)).addLeaf(new FlyFollow(camera, 0.25f, 5, 10)));
         addObject(bunnyBranch);
         addObject(planeObject);
 
+        boxBranch.getTransform().getPos().set(boxBranch.getTransform().getPos().add(new Vector3f(-1, -1, 0)));
+        boxBranch.getTransform().setRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(45)));
 
         directionalLight.getTransform().setRot(new Quaternion(new Vector3f(1, 0, 0), (float) Math.toRadians(-45)));
 
@@ -127,6 +140,8 @@ public class TestGame extends Game {
         bunnyBranch.getTransform().setRot(new Quaternion(new Vector3f(0, 1, 0), (float) Math.toRadians(90)));
         bunnyBranch.getTransform().setScale(1.2f, 1.2f, 1.2f);
         monkeyBranch.getTransform().getPos().set(9.5f, 1.0f, 4.5f);
+
+        bodyBranch.getTransform().setScale(0.5f, 0.5f, 0.5f);
     }
 
     private float r = 0f;
@@ -144,6 +159,9 @@ public class TestGame extends Game {
             spotLight.getTransform().getPos().set(spotLight.getTransform().getPos().lerp(camera.getTransform().getPos().add(camera.getTransform().getRot().getForward().div(2)), delta * 5));//15, -0.655f, (float) (Math.cos(r) * Math.PI) + 5);
             spotLight.getTransform().setRot(spotLight.getTransform().getRot().nlerp(camera.getTransform().getRot(), delta * 17.5f, true));
         }
+        bodyBranch.getTransform().getPos().set(camera.getTransform().getPos().add(new Vector3f(0, -0.5f, 0)));
+        Quaternion rot = camera.getTransform().getRot().copy();
+        bodyBranch.getTransform().setRot(rot);
     }
 
     boolean follow = true;
@@ -170,6 +188,17 @@ public class TestGame extends Game {
                 monkeyMesh.setRenderingMode(RenderingMode.POINTS);
             else if (monkeyMesh.renderingMode() == RenderingMode.POINTS)
                 monkeyMesh.setRenderingMode(RenderingMode.FULL);
+        }
+
+        if (Input.getKey(Input.KEY_LEFT)) {
+            directionalLight.getTransform().rotate(new Vector3f(1, 0, 0), (float) Math.toRadians(2f));
+        } else if (Input.getKey(Input.KEY_RIGHT)) {
+            directionalLight.getTransform().rotate(new Vector3f(-1, 0, 0), (float) Math.toRadians(2f));
+        }
+        if (Input.getKey(Input.KEY_UP)) {
+            directionalLight.getTransform().rotate(new Vector3f(0, 0, 1), (float) Math.toRadians(2));
+        } else if (Input.getKey(Input.KEY_DOWN)) {
+            directionalLight.getTransform().rotate(new Vector3f(0, 0, -1), (float) Math.toRadians(2));
         }
     }
 }

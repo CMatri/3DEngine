@@ -25,7 +25,7 @@ public class MainTicTacToe extends Game {
 		}
 
 		Mesh m = new Mesh(vertices, indices);
-		m.setDrawType(GL11.GL_TRIANGLES);
+//		m.setDrawType(GL11.GL_TRIANGLES);
 
 		addObject(new GameBranch().addLeaf(new DirectionalLight(new Vector3f(1, 1, 1), 0.4f)));
 		addObject(new GameBranch().addLeaf(new MeshRenderer(m, MaterialBag.brick)));

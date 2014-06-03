@@ -25,6 +25,6 @@ public class Box extends Mesh {
 				}
 		);
 
-		setDrawType(GL_TRIANGLE_STRIP);
+//		setDrawType(GL_TRIANGLE_STRIP);
 	}
 }

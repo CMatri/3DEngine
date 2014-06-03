@@ -1,6 +1,9 @@
 package com.base.engine.rendering;
 
-import com.base.engine.core.*;
+import com.base.engine.core.GameBranch;
+import com.base.engine.core.Matrix4f;
+import com.base.engine.core.Transform;
+import com.base.engine.core.Vector3f;
 import com.base.engine.leaves.BaseLight;
 import com.base.engine.leaves.Camera;
 import com.base.engine.rendering.resourceManagement.MappedValues;
@@ -10,7 +13,7 @@ import java.util.HashMap;
 
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL14.GL_DEPTH_COMPONENT16;
-import static org.lwjgl.opengl.GL30.GL_DEPTH_ATTACHMENT;
+import static org.lwjgl.opengl.GL30.*;
 import static org.lwjgl.opengl.GL32.GL_DEPTH_CLAMP;
 
 public class RenderingEngine extends MappedValues {
@@ -41,7 +44,7 @@ public class RenderingEngine extends MappedValues {
         samplerMap.put("shadowMap", 3);
 
         setVector3f("ambient", new Vector3f(0.03f, 0.03f, 0.03f));
-        setTexture("shadowMap", new Texture(1024, 1024, null, GL_TEXTURE_2D, GL_NEAREST, GL_DEPTH_COMPONENT16, GL_DEPTH_COMPONENT, true, GL_DEPTH_ATTACHMENT));
+        setTexture("shadowMap", new Texture(1024, 1024, null, GL_TEXTURE_2D, GL_LINEAR, GL_RG32F, GL_RGBA, true, GL_COLOR_ATTACHMENT0));
 
         forwardAmbient = new Shader("forward-ambient");
         shadowMapShader = new Shader("shadowMapGenerator");
@@ -87,10 +90,17 @@ public class RenderingEngine extends MappedValues {
 
                 lightMatrix = biasMatrix.mul(altCamera.getViewProjection());
 
+                setVector3f("shadowTexelSize", new Vector3f(1.0f / 1024.0f, 1.0f / 1024.0f, 0));
+                setFloat("shadowBias", shadowInfo.getBias() / 1024.0f);
+
                 Camera temp = mainCamera;
                 mainCamera = altCamera;
 
+                if (shadowInfo.isFlipFaces())
+                    glCullFace(GL_FRONT);
                 branch.renderAll(shadowMapShader, this);
+                if (shadowInfo.isFlipFaces())
+                    glCullFace(GL_BACK);
 
                 mainCamera = temp;
             }

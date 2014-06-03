@@ -54,9 +54,29 @@ public class BaseLight extends GameLeaf {
 
     public class ShadowInfo {
         private Matrix4f projection;
+        private float bias;
+        private boolean flipFaces;
 
-        public ShadowInfo(Matrix4f projection) {
+        public ShadowInfo(Matrix4f projection, float bias, boolean flipFaces) {
             this.projection = projection;
+            this.bias = bias;
+            this.flipFaces = flipFaces;
+        }
+
+        public float getBias() {
+            return bias;
+        }
+
+        public void setBias(float bias) {
+            this.bias = bias;
+        }
+
+        public boolean isFlipFaces() {
+            return flipFaces;
+        }
+
+        public void setFlipFaces(boolean flipFaces) {
+            this.flipFaces = flipFaces;
         }
 
         public Matrix4f getProjection() {

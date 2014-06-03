@@ -8,7 +8,7 @@ uniform DirectionalLight R_directionalLight;
 float calcShadowMapEffect(sampler2D shadowMap, vec4 initialShadowMapCoords) {
 	vec3 shadowMapCoords = (initialShadowMapCoords.xyz / initialShadowMapCoords.w);
 
-	return sampleShadowMap(shadowMap, shadowMapCoords.xy, shadowMapCoords.z);
+	return sampleVarianceShadowMap(shadowMap, shadowMapCoords.xy, initialShadowMapCoords.z);
 }
 
 void main() {
